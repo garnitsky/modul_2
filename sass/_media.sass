@@ -1,0 +1,179 @@
+@media ( max-width: 1200px )
+    .subheader_phone
+        font-size: 18px
+    .mobile_item
+        width: 300px
+    .promo_header
+        font-size: 50px
+    .apple
+        width: 75px
+    .footer_total_apps
+        margin-right: 10px
+@media ( max-width: 991px )
+    .menu
+        padding: 10px 0 0 0
+        font-size: 8px
+        line-height: 10px
+        &_item
+            padding-right: 0
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 12px
+            padding-top: 5px
+        &_phone
+            font-size: 16px
+            margin-top: 5px
+
+    .pnull
+        padding: 0
+    .promo_header
+        font-size: 40px
+    .promo_subheader
+        font-size: 30px
+    .item_text
+        width: 320px
+        margin-top: 15px
+    .mobile_item
+        width: 225px
+        height: 225px
+        padding-top: 40px
+    .choice_img
+        width: 100%
+    .require
+        padding: 30px 0 54px 0
+    .footer_total_about_main_m
+        font-size: 13px
+    .footer_total_about_center_s
+        font-size: 8px
+    .apple
+        width: 60px
+    .footer
+        height: 130px
+    .item
+        flex-direction: column
+        align-items: center
+@media ( max-width: 767px )
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, 0.8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin: 15px
+            &_link
+                font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 15px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            font-weight: 400
+            font-size: 16px
+            text-align: center
+        &_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 15px
+    .promo_header
+        font-size: 35px
+
+@media ( max-width: 575px )
+    .subheader
+        height: 65px
+        &_official
+            display: none
+        &_logo
+            margin-top: 20px
+        &_phone
+            font-size: 12px
+            font-weight: 400
+        &_btn
+            width: 110px
+            height: 22px
+            font-size: 10px
+            line-height: 0
+
+    .promo
+        min-height: 300px
+        &_descr
+            display: none
+
+        &_header
+            margin-top: 100px
+            font-size: 30px
+            line-height: 30px
+            &_subheader
+        &_btn
+
+            width: 200px
+            height: 50px
+            margin-top: 220px
+    .menu
+        width: 85%
+    .eight_causes
+        font-size: 16px
+        line-height: 16px
+    .item_text
+        width: 280px
+    .choice
+        min-height: 350px
+    .footer_total
+        flex-direction: column
+        &_social
+            order: 2
+            width: 100%
+            justify-content: center
+            padding-top: 10px
+        &_about
+            order: 1
+            width: 100%
+            justify-content: center
+            padding: 10px
+        &_apps
+            order: 3
+            width: 100%
+            justify-content: center
+            padding: 10px 0 10px
